@@ -1,0 +1,48 @@
+#hidden-cat span, .widget-title span {
+    text-align: center;
+    display: block;
+    padding: 13px;
+    background-color: #0fb5de;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.zmovo-m-list-items{
+    /* max-height: 500px;
+    overflow-x: hidden; */
+}
+.zmovo-m-item{
+    overflow: hidden;
+    border: 2px solid #0e0e27;
+    border-radius: 5px;
+    padding: 7px 10px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 20px;
+}
+.zmovo-m-item .zmovo-m-item-img{
+    margin-right: 10px;
+    float:left;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.zmovo-m-item .zmovo-m-item-img img{
+    width: 70px;
+}
+.zmovo-m-item .zmovo-m-item-content .zmovo-m-item-c1{
+    color: var(--color-1);
+    /* font-size: 14px; */
+    font-weight: bold;;
+    transition: .3s;
+}
+.zmovo-m-item:hover .zmovo-m-item-content .zmovo-m-item-c1{
+    color: var(--color-2);
+}
+.zmovo-m-item .zmovo-m-item-content .zmovo-m-item-text{
+    color: #fff;
+}
+.zmovo-m-item .zmovo-m-item-content .zmovo-m-item-time{
+    color: var(--color-2);
+}

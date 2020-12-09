@@ -1,0 +1,110 @@
+
+/*** movie items ***/
+
+.zmovo-v-box-img {
+    position: relative;
+    width: 100%;
+    padding-top: 149%;
+    /* background: #fff; */
+}
+.zmovo-v-box-img img{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+.zmovo-v-box-content {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    z-index: 9999;
+}
+
+.zmovo-v-box-content > a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.zmovo-v-box-content .zmovo-v-tag {
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.zmovo-v-box-content > a:hover {
+    color: var(--color-1);
+}
+
+.zmovo-v-box-content .movie-time {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.like-icon {
+    display: inline-block;
+    width: 30%;
+    float: right;
+    text-align: right;
+    margin: 2px 0;
+}
+
+.like-icon a {
+    color: #ff7800;
+}
+
+.like-icon a:hover {
+    color: var(--color-1);
+}
+
+.zmovo-video-item-box .ply-btns {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 9999;
+    transform: translateY(-50%)
+}
+
+.ply-btns {
+    opacity: 0;
+}
+/* Play button */
+.zmovo-video-item-box .ply-btns img{
+    display: inline-block !important;
+    width: 40px !important;
+    margin-right: 10px;
+}
+.zmovo-video-item-box:hover .ply-btns {
+    opacity: 1;
+}
+.zmovo-video-item-tag{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 9999;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0px 5px;
+    color: #fff;
+    font-size: 12px;
+}

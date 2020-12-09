@@ -1,0 +1,37 @@
+
+/*** About page ***/
+
+.zmovo-about-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.zmovo-counter-items {
+    border: 3px solid #0c0c21;
+    padding: 15px 30px 20px 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.zmovo-counter-number span {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: montserrat;
+}
+
+.zmovo-counter-text h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-1)
+}
+
+.zmovo-counter-items:hover .zmovo-counter-text h4 {
+    color: #fff
+}
+
+.zmovo-counter-items:hover {
+    background-color: var(--color-1);
+}

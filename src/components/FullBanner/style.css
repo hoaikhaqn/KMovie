@@ -1,0 +1,123 @@
+/*** full width banner ***/
+
+.zmovo-full-banner-bg {
+    background-color: #333;
+    /* background-image: url(../../image/full-banner.jpg); */
+    background-size: cover;
+    background-position: top;
+    padding-top: 12%;
+    padding-bottom: 3%;
+}
+
+.zmovo-full-banner-bg2 {
+    /* background-image: url(../../image/banner3.jpg); */
+    background-size: cover;
+    background-position: left center;
+    padding: 50px 0;
+}
+
+.zmovo-fullwidht-banner .zmovo-full-banner-bg2 .zmovo-slider-contetn {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.zmovo-full-banner-bg .zmovo-slide-content,
+.zmovo-full-banner-bg2 .zmovo-slide-content {
+    position: relative;
+    width: auto;
+    bottom: auto;
+}
+
+.zmovo-full-banner-bg .zmovo-slider-contetn > a,
+.zmovo-full-banner-bg2 .zmovo-slider-contetn > a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 78%;
+    display: block;
+    margin: 12px 0;
+    margin-bottom: 4px;
+}
+
+.zmovo-fullwidht-banner h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: montserrat;
+    display: block;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+
+.zmovo-fullwidht-banner .zmovo-slider-contetn {
+    display: inline-block;
+}
+
+.zmovo-fullwidht-banner .movie-time {
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+.zmovo-fullwidht-banner .owl-dot {
+    width: 5px;
+    height: 5px;
+    background: #9f0043;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.zmovo-full-banner-bg2 .owl-dot {
+    background: var(--color-1);
+}
+
+.zmovo-fullwidht-banner .owl-dots {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.zmovo-fullwidht-banner .zmovo-full-banner-bg2 .owl-dots {
+    top: 50%;
+}
+
+.zmovo-fullwidht-banner .owl-dot.active {
+    background: #fff;
+}
+
+.banner-ing {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.banner-ing .zmovo-slider-premium-tag {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 999;
+}
+
+.banner-ing .zmovo-slider-premium-tag span {
+    border-radius: 0;
+}
+
+.banner-ing .zmovo-slide-ply-btn {
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.zmovo-v-list-content .zmovo-v-tag span {
+    color: #ff7800;
+}
+
+.zmovo-full-banner-bg .zmovo-slider-contetn a:hover {
+    color: #fff;
+}
+
+.zmovo-fullwidht-banner .zmovo-v-tag span {
+    color: #fff;
+}
+

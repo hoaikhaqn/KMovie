@@ -1,0 +1,67 @@
+
+  {
+    "id": "dr-stone-2019",
+    "name": "Hồi sinh thế giới",
+    "subname": "Dr.Stone",
+    "poster": "poster.jpg",
+    "banner": "banner.jpg",
+    "description": "Chuyển thể từ manga cùng tên của tác giả Riichiro Inagaki. Lấy bối cảnh tương lai, ngày định mệnh của nhân loại đã đến, một tia sáng kì dị xuất hiện trên địa cầu khiến toàn bộ loài người hóa thành đá. Mấy ngàn năm trôi qua, ngày nọ cậu thiếu niên Senkuu bỗng nhiên phá đá thức tỉnh, trước mắt cậu là những pho tượng hóa đá của nhân loại. Cùng với cậu bạn của mình là Taiju bắt đầu đại nghiệp giải cứu nhân loại. Cuộc phiêu lưu mới bắt đầu, điều gì sẽ chờ đợi Senkuu và Taiju ở phía trước? Đại nghiệp ấy có thành công mỹ mãn hay thất bại trong tuyệt vọng?",
+    "rating": 4.8,
+    "voted": 564,
+    "quality": "Full HD",
+    "status": 0,
+    "imdb": 9.5,
+    "directors": {
+      "riichiro-inagaki":"Riichiro Inagaki"
+    },
+    "actors": {},
+    "type":{
+      "phim-bo": "Phim bộ"
+    },
+    "genre": {
+      "anime":"Anime",
+      "tai-liẹu":"Tài liệu",
+      "hanh-dong":"Hành động",
+      "vien-tuong":"Viễn tưởng",
+      "phieu-luu":"Phiêu lưu"
+    },
+    "year": "2019",
+    "nation": {
+      "jp":"Nhật Bản"
+    },
+    "time": "24 phút/tập",
+    "trailer": "https://www.youtube.com/embed/KnEMDDMYYfU",
+    "server": [
+      {
+      "name":"Server VN",
+      "ep":[
+        {
+          "label":"Vietsub",
+          "link":"https://drive.google.com/uc?export=download&id=1_MB-l2R8OFTKGT0la2gw0IMrowMK-7PF"
+        }
+      ]
+    },
+    {
+      "name":"Server US",
+      "ep":[
+        {
+          "label":"Vietsub",
+          "link":"http://media.s-wifi.vn/media/htmlbanner/2019/anlene/video/video.mp4"
+        }
+      ]
+    },
+    {
+      "name":"Server SINGAPORE",
+      "ep":[
+        {
+          "label":"Vietsub",
+          "link":"http://media.s-wifi.vn/media/htmlbanner/2019/anlene/video/video.mp4"
+        }
+      ]
+    }
+  ],
+  "createdAt": "4",
+  "keywords":["dr","stone","dr.stone","hồi%20sinh%20thế%20giới"],
+  "tags": ["Shounen","dr.stone","Hồi sinh thế giới","Khôi phục thế giới","Thế giới hóa đá"]
+  }
+

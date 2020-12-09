@@ -1,0 +1,170 @@
+/*** blog page ***/
+
+.zmovo-blog-date a {
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 100%;
+}
+
+.zmovo-blog-date a span {
+    margin-right: 5px;
+}
+
+.zmovo-blog-date {
+    display: inline-block;
+}
+
+.zmovo-b-title a {
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+    color: var(--color-1);
+}
+
+.zmovo-b-title a:hover {
+    color: #f27a0c;
+}
+
+.zmovo-blog-meta ul {
+    display: inline-block;
+}
+
+.zmovo-blog-meta ul li {
+    display: inline-block;
+}
+
+.zmovo-blog-meta ul li a {
+    color: #fff;
+    margin: 5px;
+}
+
+.zmovo-blog-meta ul li a span {
+    margin-right: 5px;
+}
+
+.zmovo-blog-meta {
+    margin-top: 10px;
+}
+
+.zmovo-blog-meta ul li a:hover {
+    color: var(--color-1);
+}
+
+.zmovo-blog-meta ul li.postby a {
+    color: var(--color-1);
+}
+
+.zmovo-blog-meta ul li.postby a:hover {
+    color: #f87906;
+}
+
+.zmovo-blog-social-share {
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    top: 7px;
+    margin-left: 6px;
+}
+
+.zmovo-blog-share-icon > ul.zmovo-b-social-icons {
+    background: var(--color-1);
+    padding: 0 4px;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-left: -200px;
+    -webkit-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    -moz-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    -ms-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    -o-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88)
+}
+
+.zmovo-blog-share-icon ul li a {
+    color: #02020f;
+}
+
+.zmovo-blog-share-icon ul li a:hover {
+    color: white;
+}
+
+.zmovo-blog-share-icon:hover .zmovo-b-social-icons {
+    margin-left: 0;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+    position: absolute;
+    left: 0;
+    top: 44%;
+    right: 0;
+    text-align: center;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 999999;
+}
+
+.zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+    position: absolute;
+    left: 0;
+    top: 29%;
+    right: 0;
+    text-align: center;
+    z-index: 9999;
+    opacity: 0
+}
+
+.zmovo-blog-dec-contents:hover .zmovo-slide-ply-btn {
+    opacity: 1;
+}
+
+.zmovo-blog-dec-contents .zmovo-slide-content {
+    left: 5%;
+    bottom: 5%;
+    z-index: 9999;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-area #slider3 .owl-controls {
+    position: absolute;
+    right: 0;
+    top: 42%;
+    width: auto;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-area .owl-dot {
+    display: block;
+    margin: 6px;
+}
+
+.zmovo-blog-d-p {
+    margin: 15px 0;
+}
+
+.zmovo-blog-dec-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: montserrat;
+}
+
+.zmovo-blog-dec-content .social-links {
+    border-top: 1px solid #224;
+    margin-top: 30px;
+    padding-top: 15px;
+}

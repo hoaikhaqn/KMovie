@@ -1,0 +1,603 @@
+
+/**** header area ***/
+
+.zmovo-top-search {
+    display: inline-block;
+}
+
+.zmovo-login {
+    display: inline-block;
+}
+
+.zmovo-login a {
+    background-color: var(--color-1);
+    color: #fff;
+}
+
+.zmovo-login a span {
+    margin-right: 4px;
+}
+
+.zmovo-login a:hover {
+    background-color: #ff7700;
+    color: #fff;
+}
+
+.zmovo-ser-icon {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.main-menu{
+    position: relative;
+    z-index: -1;
+    opacity: 0!important;
+    transition: .3s ease-in-out;
+}
+.main-menu.show{
+    z-index: 1000;
+    opacity: 1!important;
+}
+.navigation {
+    background-color: transparent;
+    z-index: 9999;
+    position: relative;
+}
+
+.zmovo-top-search {
+    position: relative;
+}
+
+.zmovo-hidden-search {
+    z-index: -1;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+.zmovo-hidden-search.show{
+    z-index: 1000;
+    opacity: 1;
+}
+.zmovo-hidden-search {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.zmovo-hidden-search input {
+    padding: 5px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    outline:none;
+    border-radius: 30px;
+}
+
+#navigation,
+#navigation ul,
+#navigation ul li,
+#navigation ul li a,
+#navigation #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 16px;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#navigation > ul > li.active > a {
+    color: var(--color-1);
+}
+
+#navigation:after,
+#navigation > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#navigation #menu-button {
+    display: none;
+    position: relative;
+}
+
+#navigation > ul > li {
+    float: left;
+}
+
+#navigation.align-center > ul {
+    font-size: 0;
+    text-align: center;
+}
+
+#navigation.align-center > ul > li {
+    display: inline-block;
+    float: none;
+}
+
+#navigation.align-center ul ul {
+    text-align: left;
+}
+
+#navigation.align-right > ul > li {
+    float: right;
+}
+
+#navigation > ul > li > .menu-title{
+    display: inline-block;
+    padding: 20px 25px 20px 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-right: -1px;
+    font-family: montserrat;
+    font-weight:bold;
+}
+#navigation > ul > li.has-sub > a::before {
+    position: absolute;
+    right: 18px;
+    font-family: FontAwesome;
+    content: "\f107";
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+#navigation > ul > li.has-sub > a::before {
+    position: absolute;
+    right: 14px;
+    font-family: FontAwesome;
+    content: "\f107";
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    display: none;
+}
+
+#navigation ul ul li.has-sub > a::before {
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #ffffff;
+    content: '';
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+#navigation ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 23px;
+    right: 11px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #ffffff;
+    content: '';
+}
+
+#navigation ul ul > li.has-sub:hover > a::before {
+    top: 17px;
+    height: 0;
+}
+
+#navigation > ul > li > .active {
+    color: var(--color-1);
+}
+
+#navigation > ul > li:hover > a {
+    color: var(--color-1);
+}
+
+#navigation ul ul {
+    position: absolute;
+    left: -9999px;
+    width:480px;
+    background: var(--color-1);
+}
+
+#navigation.align-right ul ul {
+    text-align: right;
+}
+
+#navigation ul ul li {
+    height: 0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+#navigation li:hover > ul {
+    left: auto;
+}
+
+#navigation.align-right li:hover > ul {
+    left: auto;
+    right: 0;
+}
+
+#navigation li:hover > ul > li {
+    height: 44px;
+}
+
+#navigation ul ul ul {
+    margin-left: 100%;
+    top: 0;
+    background: #eee;
+}
+
+#navigation.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%;
+}
+#navigation ul ul li{
+    width:25%;
+    float: left;
+}
+#navigation ul ul li a {
+    padding: 14px 15px;
+    /* width: 220px; */
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    background: var(--color-1);
+    font-family: montserrat;
+    text-transform: capitalize;
+}
+
+#navigation ul ul li:last-child > a,
+#navigation ul ul li.last-item > a {
+    border-bottom: 0;
+}
+
+#navigation ul ul li:hover > a,
+#navigation ul ul li a:hover {
+    color: #fff;
+    background-color: #02020f;
+}
+
+
+.header-transparent {
+    padding-bottom: 20px;
+}
+
+.top-bar-transparent {
+    margin-bottom: 20px;
+}
+
+.header-transparent #navigation {
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.header-transparent #navigation > ul > li > a {
+    padding: 10px 4px;
+    border: transparent;
+    color: #fff;
+}
+
+.header-top {
+    border-bottom: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    border-color: rgba(250, 250, 250, .2);
+}
+
+.header-transparent #navigation li a {
+    color: #ffffff;
+    background-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 14px 30px 14px 10px;
+}
+
+.header-transparent #navigation li ul li a {
+    background-color: #446a73;
+    padding: 18px 20px;
+}
+
+.header-transparent #navigation > ul > li.has-sub > a {
+    padding-right: 30px;
+}
+
+.header-transparent #navigation li ul li a {
+    border-bottom: 1px solid #375b63;
+}
+
+.header-top .top-nav ul li a {
+    color: #fff;
+}
+
+.top-nav-collapse {
+    background-color: rgba(18, 45, 52, .8);
+}
+
+.phone-img {
+    margin-bottom: 60px;
+}
+
+.navigation_tw #navigation {
+    float: left;
+    padding-left: 13px;
+}
+
+.navigation_tw #navigation > ul > li > a {
+    padding: 34px 25px 34px 5px;
+    margin-right: 5px;
+}
+
+.navigation_tw #navigation > ul > li.has-sub > a {
+    padding: 34px 25px 34px 5px;
+    margin-right: 5px;
+}
+
+.menu_appontment .more-link {
+    margin-top: 17px;
+}
+
+.menu_search_box input {
+    border: none;
+    background: transparent;
+    color: #fefefe;
+    opacity: 1;
+    width: 50%;
+    box-shadow: none;
+}
+
+.menu_search_box input:active {
+    box-shadow: none;
+}
+
+.menu_search_box button {
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+.col-lg-3.menu_search_box {}
+
+.menu_search_box form {
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+
+.navigation_tw {
+    z-index: 999;
+    position: relative;
+}
+
+.navigation_tw .menu-container {
+    position: absolute;
+    background: #1b1a1a;
+    left: 50%;
+    margin-left: -554px;
+    width: 1108px;
+    top: -35px;
+    border-radius: 50px;
+}
+
+.navigation_tw {
+    background-color: #1e1c1c;
+}
+
+.navigation_tw #navigation > ul > li > a {
+    color: #fff;
+}
+
+.navigation_tw #navigation ul ul li a {
+    color: #f6f0f0;
+    background: #1b1a1a;
+    border-top: 1px solid #272525;
+    border-bottom: 1px solid #272525;
+}
+
+header.zmovo-header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    background-color: rgba(6, 6, 35, 0.3);
+    border-bottom: 1px solid rgba(2, 2, 15, 1);
+}
+
+
+/**** Footer ***/
+
+
+/*** instagram ***/
+
+.zmoto-instagram-post {
+    position: relative;
+    text-align: center;
+}
+
+.zmoto-instagram-post:hover a.zmoto-instagram-icon {
+    opacity: 1
+}
+
+a.zmoto-instagram-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 30px;
+    height: 33px;
+    top: 45%;
+    text-align: center;
+    font-size: 21px;
+    color: var(--color-1);
+    z-index: 999;
+    opacity: 0;
+}
+
+.zmovo-footer {
+    background-color: #050514;
+    padding: 50px 0;
+}
+
+h2.zmovo-ft-widget-title {
+    font-size: 18px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.zmoto-ft-widget-contetn ul li {
+    line-height: 32px;
+}
+
+.zmoto-ft-widget-contetn ul li a {
+    color: #fff;
+}
+
+.zmoto-ft-widget-contetn ul li a:hover {
+    color: var(--color-1);
+}
+
+.zmovo-ft-newsletter input {
+    padding: 12px;
+    display: block;
+    border-radius: 0;
+    min-height: 41px;
+    background-color: #02020f;
+    border-color: transparent;
+}
+
+.zmovo-ft-newsletter {
+    position: relative;
+}
+
+.zmovo-ft-newsletter button {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    border: transparent;
+    min-height: 39px;
+    padding: 0 15px;
+    cursor: pointer;
+    background-color: #030316;
+    border-left: 3px solid #0f0f1b;
+    color: #fff;
+}
+
+.zmovo-ft-newsletter button:focus,
+.zmovo-ft-newsletter input:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.zmovo-ft-social-widget ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.zmovo-ft-social-widget ul li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #02020f;
+    padding: 5px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.zmovo-ft-social-widget ul li a:hover {
+    background-color: var(--color-1);
+    color: #fff;
+}
+
+
+/*** footer bottom ***/
+
+.zmovo-ft-menu ul li {
+    display: inline-block;
+}
+
+.zmovo-ft-menu ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    margin-right: 14px;
+}
+
+.zmovo-ft-menu ul li a:hover {
+    color: var(--color-1);
+}
+
+.zmovo-ft-copyright {
+    text-align: right;
+}
+
+.zmovo-ft-copyright a:hover {
+    color: #ff7800;
+}
+
+.zmovo-footer-buttom {
+    padding: 25px 0 20px 0;
+    background-color: #02020f;
+}
+
+
+
+/* ---------------- back to Top ----------------------*/
+
+.to-top:hover,
+.home-2 .to-top:hover {
+    background: #333;
+    color: #fff
+}
+
+.movie-item-content-center a:hover {
+    color: var(--color-1);
+}
+
+.to-top {
+    background: #fff;
+    bottom: 19px;
+    color: #333;
+    cursor: pointer;
+    font-size: 18px;
+    height: 45px;
+    line-height: 44px;
+    overflow: hidden;
+    position: fixed;
+    right: 3%;
+    text-align: center;
+    width: 45px;
+    z-index: 2147483647;
+}

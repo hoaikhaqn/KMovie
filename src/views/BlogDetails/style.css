@@ -1,0 +1,546 @@
+
+/*** blog page ***/
+
+.zmovo-blog-date a {
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .zmovo-blog-date a span {
+    margin-right: 5px;
+  }
+  
+  .zmovo-blog-date {
+    display: inline-block;
+  }
+  
+  .zmovo-b-title a {
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+    color: var(--color-1);
+  }
+  
+  .zmovo-b-title a:hover {
+    color: #f27a0c;
+  }
+  
+  .zmovo-blog-meta ul {
+    display: inline-block;
+  }
+  
+  .zmovo-blog-meta ul li {
+    display: inline-block;
+  }
+  
+  .zmovo-blog-meta ul li a {
+    color: #fff;
+    margin: 5px;
+  }
+  
+  .zmovo-blog-meta ul li a span {
+    margin-right: 5px;
+  }
+  
+  .zmovo-blog-meta {
+    margin-top: 10px;
+  }
+  
+  .zmovo-blog-meta ul li a:hover {
+    color: var(--color-1);
+  }
+  
+  .zmovo-blog-meta ul li.postby a {
+    color: var(--color-1);
+  }
+  
+  .zmovo-blog-meta ul li.postby a:hover {
+    color: #f87906;
+  }
+  
+  .zmovo-blog-social-share {
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    top: 7px;
+    margin-left: 6px;
+  }
+  
+  .zmovo-blog-share-icon > ul.zmovo-b-social-icons {
+    background: var(--color-1);
+    padding: 0 4px;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-left: -200px;
+    -webkit-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    -moz-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    -ms-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    -o-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+    transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88)
+  }
+  
+  .zmovo-blog-share-icon ul li a {
+    color: #02020f;
+  }
+  
+  .zmovo-blog-share-icon ul li a:hover {
+    color: white;
+  }
+  
+  .zmovo-blog-share-icon:hover .zmovo-b-social-icons {
+    margin-left: 0;
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+    position: absolute;
+    left: 0;
+    top: 44%;
+    right: 0;
+    text-align: center;
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 999999;
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+    position: absolute;
+    left: 0;
+    top: 29%;
+    right: 0;
+    text-align: center;
+    z-index: 9999;
+    opacity: 0
+  }
+  
+  .zmovo-blog-dec-contents:hover .zmovo-slide-ply-btn {
+    opacity: 1;
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slide-content {
+    position: relative;
+    padding: 3%;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    /* background: rgba(0,0,0,.5); */
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slider-area #slider3 .owl-controls {
+    position: absolute;
+    right: 0;
+    top: 42%;
+    width: auto;
+  }
+  
+  .zmovo-blog-dec-contents .zmovo-slider-area .owl-dot {
+    display: block;
+    margin: 6px;
+  }
+  
+  .zmovo-blog-d-p {
+    margin: 15px 0;
+  }
+  
+  .zmovo-blog-dec-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: montserrat;
+  }
+  
+  .zmovo-blog-dec-content .social-links {
+    border-top: 1px solid #224;
+    margin-top: 30px;
+    padding-top: 15px;
+  }
+  
+  
+  /*** comment form ***/
+  
+  .comment-reply a {
+    margin: 15px;
+  }
+  
+  .comment-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    clear: both;
+    margin-right: 16px;
+    margin-left: -43px;
+  }
+  
+  .comment-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    float: left;
+  }
+  
+  .comment-content {
+    display: block;
+    overflow: hidden;
+    color: #fff;
+  }
+  
+  .comment-body {
+    border: 1px solid #0c0c21;
+    padding: 30px 30px;
+    background: #0c0c21;
+    border-radius: 10px;
+    padding-left: 0;
+    padding-bottom: 19px;
+  }
+  
+  .blog-details-reply-box {
+    display: inline-block;
+  }
+  
+  .comment-time {
+    display: inline-block;
+    margin-right: 0;
+    color: #b9b9b9;
+    text-transform: capitalize;
+  }
+  
+  .comment-reply {
+    display: inline-block;
+  }
+  
+  .comment-reply a {
+    margin: 4px;
+    text-transform: capitalize;
+  }
+  
+  h3.comment-title {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .comment-content > p {
+    margin: 9px 0;
+    font-weight: 600;
+  }
+  
+  .comment-time:before {
+    content: "\f017";
+    font-family: fontawesome;
+    margin-right: 5px;
+  }
+  
+  p.bookbark {
+    background: #13be13;
+    padding: 50px;
+    font-size: 23px;
+    line-height: 38px;
+    margin: 30px 0;
+    border-radius: 5px;
+  }
+  
+  a.Repost:before {
+    content: "\f112";
+    font-family: fontawesome;
+    margin: 6px;
+  }
+  
+  a.reply:before {
+    content: "\f122";
+    font-family: fontawesome;
+    margin: 5px;
+  }
+  
+  .comment-reply a:hover {
+    color: var(--color-1);
+  }
+  
+  .comment-reply a {
+    color: #b9b9b9;
+  }
+  
+  .comment-area > h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: montserrat;
+  }
+  
+  .comment-respond > h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: block;
+    padding-bottom: 13px;
+    text-decoration: underline;
+  }
+  
+  .comment-respond a.btn.btn-buttons {
+    padding: 10px;
+    background-color: var(--color-1);
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  li.single-comment {
+    margin: 40px;
+  }
+  
+  ol.comment-list-reply {
+    margin-left: 95px;
+  }
+  
+  .respons-box label {
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .respons-box .form-control {
+    border: 1px solid #191939;
+    background-color: #02020f;
+  }
+  
+  a.btn.btn-buttons:hover {
+    background-color: #ffa700;
+  }
+  
+  .respons-box .form-control:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .zmovo-blog-contents .zmovo-v-list-content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .zmovo-blog-contents .zmovo-v-list-content > p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  
+  /*** contact ***/
+  
+  #map {
+    width: 100%;
+    height: 558px;
+  }
+  
+  h5.contact-widget-title span {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+  }
+  
+  h5.contact-widget-title span:after {
+    content: "";
+    height: 1px;
+    left: 0;
+    bottom: 0;
+  }
+  
+  h5.contact-widget-title.no-margin {
+    margin-bottom: 22px;
+  }
+  
+  .contact-widget .textwidget > p {
+    margin-bottom: 14px;
+  }
+  
+  .contact-widget .textwidget ul li label {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #1f1f2f;
+    text-align: center;
+    padding: 3px;
+    margin-right: 10px;
+    color: var(--color-1);
+  }
+  
+  .contact-widget .textwidget ul li {
+    margin-bottom: 7px;
+  }
+  
+  .contact-widget .textwidget a {
+    color: var(--color-1);
+  }
+  
+  .contact-widget .textwidget a:hover {
+    color: #fa7805;
+  }
+  
+  /* rating & review */
+  
+  .ratting span {
+    color: #ffa800;
+    font-size: 16px;
+  }
+  
+  .ratting a {
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 9px;
+    font-size: 14px;
+  }
+  
+  .ratting {
+    margin: 9px 0;
+  }
+  
+  .dec-review-meta ul li {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: capitalize;
+  }
+  
+  .dec-review-meta ul li a {
+    color: #fff;
+    font-weight: normal;
+    margin-left: 11px;
+  }
+  
+  .dec-review-meta ul li a:hover,
+  .ratting a:hover {
+    color: var(--color-1);
+  }
+  
+  .dec-review-meta ul li span {
+    width: 85px;
+    clear: both;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .dec-review-meta ul li span label {
+    text-align: right;
+    float: right;
+  }
+  .zmovo-slider-contents.gradient{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .zmovo-slider-contents.gradient:after {
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    transition: .3s;
+  }
+  .zmovo-slider-contents:hover > img{
+    filter: blur(3px);
+  }
+  .zmovo-slider-contents:hover.gradient:after{
+    opacity: .5
+  }
+  .zmovo-slider-contents .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .zmovo-blog-dec-contents .item {
+    position: relative;
+  }
+  .zmovo-poster{
+    margin-right:35px;
+    position: relative;
+    cursor: pointer;
+  }
+  .zmovo-poster img{
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  .zmovo-blog-dec-contents .zmovo-slide-ply-btn{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:1;
+  }
+  .zmovo-poster .zmovo-slide-ply-btn a img{
+    margin: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+  }
+  .zmovo-slider-contents{
+    position: relative;
+    z-index: 1000;
+  }
+  .zmovo-video-container{
+    /* margin-top:50px; */
+    width: 100%;
+    display: none;
+  }
+  .zmovo-video-container video{
+    width: 100%;
+  }
+  .zmovo-trailer-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20%;
+  }
+  .zmovo-popup-container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .zmovo-trailer-popup iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .zmovo-trailer-popup .icon-close{
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    font-size: 40px;
+    margin: 1vw 0;
+    cursor: pointer;
+  }
+  .zmovo-trailer-popup .icon-close:hover{
+    color: var(--color-1);
+  }

@@ -1,0 +1,83 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DOCUMENT_KEY_NAME = '__name__';
+function assert(condition, message) {
+    if (!condition) {
+        throw new Error(message);
+    }
+}
+exports.assert = assert;
+function contains(obj, prop) {
+    return Object.prototype.hasOwnProperty.call(obj, prop);
+}
+exports.contains = contains;
+function safeGet(obj, prop) {
+    if (contains(obj, prop))
+        return obj[prop];
+}
+exports.safeGet = safeGet;
+function deepGet(obj, path) {
+    var value = obj;
+    var props = path.split('.');
+    props.some(function (prop) {
+        value = safeGet(value, prop);
+        // By using "some" instead of "forEach", we can return
+        // true whenever we want to break out of the loop.
+        return typeof value === void 0;
+    });
+    return value;
+}
+exports.deepGet = deepGet;
+function astValueToNative(astValue) {
+    var value;
+    switch (astValue.type) {
+        case 'bool':
+        case 'null':
+        case 'string':
+            value = astValue.value;
+            break;
+        case 'number':
+            value = Number(astValue.value);
+            break;
+        default:
+            throw new Error('Unsupported value type in WHERE clause.');
+    }
+    return value;
+}
+exports.astValueToNative = astValueToNative;
+/**
+ * Adapted from: https://github.com/firebase/firebase-ios-sdk/blob/14dd9dc2704038c3bf702426439683cee4dc941a/Firestore/core/src/firebase/firestore/util/string_util.cc#L23-L40
+ */
+function prefixSuccessor(prefix) {
+    // We can increment the last character in the string and be done
+    // unless that character is 255 (0xff), in which case we have to erase the
+    // last character and increment the previous character, unless that
+    // is 255, etc. If the string is empty or consists entirely of
+    // 255's, we just return the empty string.
+    var limit = prefix;
+    while (limit.length > 0) {
+        var index = limit.length - 1;
+        if (limit[index] === '\xff') {
+            limit = limit.slice(0, -1);
+        }
+        else {
+            limit =
+                limit.substr(0, index) +
+                    String.fromCharCode(limit.charCodeAt(index) + 1);
+            break;
+        }
+    }
+    return limit;
+}
+exports.prefixSuccessor = prefixSuccessor;
+function nameOrAlias(name, alias, aggrFn) {
+    if (alias !== null && alias.length > 0) {
+        return alias;
+    }
+    if (!aggrFn) {
+        return name;
+    }
+    return aggrFn.name + "(" + name + ")";
+}
+exports.nameOrAlias = nameOrAlias;
+//# sourceMappingURL=utils.js.map

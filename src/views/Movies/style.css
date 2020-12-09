@@ -1,0 +1,102 @@
+
+/*** Product page ***/
+/*** product filter ***/
+
+.product-filter .pagination {
+    margin: 0;
+    float: right;
+}
+
+.product-filter-list .nav {
+    padding: 0;
+}
+
+.product-filter {
+    border: 1px solid #0c0c21;
+    padding: 8px 8px 14px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.product-filter-list {
+    padding: 10px 0;
+    padding-bottom: 0;
+}
+
+.product-filter-list .nav a {
+    width: 35px;
+    display: inline-block;
+    background: #182028;
+    height: 35px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 3px;
+}
+
+.product-filter-list .bootstrap-select>.dropdown-toggle {
+    width: 72%;
+    padding-right: 25px;
+    z-index: 1;
+}
+
+.product-filter-list .nav a:hover,
+.product-filter-list .nav a.active {
+    background: var(--color-1);
+    color: #ffffff;
+}
+
+.product-filter-list .pagination-wrapper {
+    text-align: right;
+}
+
+.product-filter-list .btn-default {
+    color: #333;
+    background-color: #182028;
+    border-color: #182028;
+}
+
+.product-filter-list select {
+    color: #fff;
+    background-color: #0c0c21;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.product-filter-list .open>.dropdown-toggle.btn-default.focus,
+.product-filter-list .open>.dropdown-toggle.btn-default:focus,
+.product-filter-list .open>.dropdown-toggle.btn-default:hover,
+.product-filter-list .btn-default:active:focus,
+.product-filter-list .btn-default.active.focus {
+    color: #fff;
+    background-color: #182028;
+    border-color: #182028;
+    outline: none !important;
+}
+
+.product-filter-list .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--color-1);
+    outline: 0;
+    box-shadow: none;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.product-filter-list .short-by,
+.product-filter-list .pro-show {
+    margin:10px 0;
+    background: #0c0c21;
+    color: #fff;
+    border-radius: 2px;
+}

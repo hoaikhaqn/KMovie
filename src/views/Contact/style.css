@@ -1,0 +1,54 @@
+
+/*** contact ***/
+
+#map {
+    width: 100%;
+    height: 558px;
+}
+
+h5.contact-widget-title span {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+
+h5.contact-widget-title span:after {
+    content: "";
+    height: 1px;
+    left: 0;
+    bottom: 0;
+}
+
+h5.contact-widget-title.no-margin {
+    margin-bottom: 22px;
+}
+
+.contact-widget .textwidget > p {
+    margin-bottom: 14px;
+}
+
+.contact-widget .textwidget ul li label {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #1f1f2f;
+    text-align: center;
+    padding: 3px;
+    margin-right: 10px;
+    color: var(--color-1);
+}
+
+.contact-widget .textwidget ul li {
+    margin-bottom: 7px;
+}
+
+.contact-widget .textwidget a {
+    color: var(--color-1);
+}
+
+.contact-widget .textwidget a:hover {
+    color: #fa7805;
+}

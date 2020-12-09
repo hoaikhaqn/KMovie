@@ -1,0 +1,398 @@
+/*** blog page ***/
+
+.zmovo-blog-date a {
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 100%;
+}
+
+.zmovo-blog-date a span {
+  margin-right: 5px;
+}
+
+.zmovo-blog-date {
+  display: inline-block;
+}
+
+.zmovo-b-title a {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+  color: #0fb5de;
+}
+
+.zmovo-b-title a:hover {
+  color: #f27a0c;
+}
+
+.zmovo-blog-meta ul {
+  display: inline-block;
+}
+
+.zmovo-blog-meta ul li {
+  display: inline-block;
+}
+
+.zmovo-blog-meta ul li a {
+  color: #fff;
+  margin: 5px;
+}
+
+.zmovo-blog-meta ul li a span {
+  margin-right: 5px;
+}
+
+.zmovo-blog-meta {
+  margin-top: 10px;
+}
+
+.zmovo-blog-meta ul li a:hover {
+  color: #0fb5de;
+}
+
+.zmovo-blog-meta ul li.postby a {
+  color: #0fb5de;
+}
+
+.zmovo-blog-meta ul li.postby a:hover {
+  color: #f87906;
+}
+
+.zmovo-blog-social-share {
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  top: 7px;
+  margin-left: 6px;
+}
+
+.zmovo-blog-share-icon>ul.zmovo-b-social-icons {
+  background: #0fb5de;
+  padding: 0 4px;
+  border-radius: 5px;
+  margin-left: 12px;
+  margin-left: -200px;
+  -webkit-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+  -moz-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+  -ms-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+  -o-transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88);
+  transition: all 0.4s cubic-bezier(1, 0.15, 0, 0.88)
+}
+
+.zmovo-blog-share-icon ul li a {
+  color: #02020f;
+}
+
+.zmovo-blog-share-icon ul li a:hover {
+  color: white;
+}
+
+.zmovo-blog-share-icon:hover .zmovo-b-social-icons {
+  margin-left: 0;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.zmovo-slider-premium-tag>span {
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.zmovo-slider-contetn>h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+  position: absolute;
+  left: 0;
+  top: 44%;
+  right: 0;
+  text-align: center;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-premium-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 999999;
+}
+
+.zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+  position: absolute;
+  left: 0;
+  top: 29%;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  opacity: 0
+}
+
+.zmovo-blog-dec-contents:hover .zmovo-slide-ply-btn {
+  opacity: 1;
+}
+
+.zmovo-blog-dec-contents .zmovo-slide-content {
+  position: relative;
+  padding: 5% 3% 3% 3%;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+  /* background: rgba(0,0,0,.5); */
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-area #slider3 .owl-controls {
+  position: absolute;
+  right: 0;
+  top: 42%;
+  width: auto;
+}
+
+.zmovo-blog-dec-contents .zmovo-slider-area .owl-dot {
+  display: block;
+  margin: 6px;
+}
+
+.zmovo-blog-d-p {
+  margin: 15px 0;
+}
+
+.zmovo-blog-dec-content h2 {
+  font-size: 28;
+  font-weight: bold;
+  font-family: montserrat;
+}
+
+.zmovo-blog-dec-content .social-links {
+  border-top: 1px solid #224;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+
+
+/* rating & review */
+
+.ratting span {
+  color: #ffa800;
+  font-size: 16px;
+}
+
+.ratting a {
+  color: #fff;
+  text-transform: capitalize;
+  margin-left: 9px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.ratting {
+  margin: 0;
+  display: flex;
+}
+
+.dec-review-meta ul li {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+
+.dec-review-meta ul li a,
+.dec-review-meta ul li span {
+  color: #fff;
+  font-weight: normal;
+  margin-left: 0;
+}
+
+.dec-review-meta ul li span#imdb {
+  padding: 2px 5px;
+  background: linear-gradient(to left, #fdde7b, #b58e0e);
+  color: #010301;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.dec-review-meta ul li a {
+  color: var(--color-1);
+}
+
+.dec-review-meta ul li a:not(:last-child)::after {
+  content: ",";
+  margin-right: 5px;
+  color: #fff;
+}
+
+.dec-review-meta ul li a:hover,
+.ratting a:hover {
+  color: var(--color-2);
+}
+
+.dec-review-meta ul li span {
+  margin-right: 5px;
+}
+
+.zmovo-slider-contents {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#MovieDetailsPage .zmovo-slider-contents:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  transition: .3s;
+}
+
+#MovieDetailsPage .zmovo-slider-contents:hover>img {
+  filter: blur(3px);
+}
+
+.zmovo-slider-contents .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.zmovo-blog-dec-contents .item {
+  position: relative;
+}
+
+.zmovo-poster {
+  margin-right: 35px;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  width: 25%;
+}
+
+.zmovo-poster a {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding-top: 149%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.zmovo-poster a>img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.4));
+  transition: .5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+.zmovo-poster:hover a>img {
+  transform: scale(1.1)
+}
+
+#MovieDetailsPage .zmovo-slider-contents .zmovo-slider-content {
+  flex: 1;
+  width: 100%;
+}
+
+.zmovo-blog-dec-contents .zmovo-slide-ply-btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.zmovo-poster .zmovo-slide-ply-btn a img {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+.zmovo-slider-contents {
+  position: relative;
+  z-index: 1000;
+}
+
+.zmovo-trailer-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20%;
+}
+
+.zmovo-popup-container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.zmovo-trailer-popup iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.zmovo-trailer-popup .icon-close {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  font-size: 40px;
+  margin: 1vw 0;
+  cursor: pointer;
+}
+
+.zmovo-trailer-popup .icon-close:hover {
+  color: #00b9ec;
+}
+.zmovo-tags ul{
+  display: block;
+  vertical-align: top;
+  margin: 5px 0;
+}
+.zmovo-tags ul li {
+  background: #ccc;
+  display:inline-block;
+  margin: 8px 8px 0 0;
+  padding: 0px 6px;
+  border-radius: 2px;
+}
+.zmovo-tags ul li a{
+  color:#000;
+}

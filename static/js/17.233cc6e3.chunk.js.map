@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/Pages/Page500/index.js"],"names":["Page500"],"mappings":"sGAAA,iEAEe,SAASA,IACtB,OAAO","file":"static/js/17.233cc6e3.chunk.js","sourcesContent":["import React from \"react\";\n\nexport default function Page500() {\n  return <div>Page500 Comp</div>;\n}\n"],"sourceRoot":""}
